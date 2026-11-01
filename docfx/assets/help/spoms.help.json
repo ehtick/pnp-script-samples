@@ -88,8 +88,20 @@
     "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Approve-SPOTenantServicePrincipalPermissionRequest"
   },
   {
+    "cmd": "Clear-SPOSiteRestrictedAppAccessControlList",
+    "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Clear-SPOSiteRestrictedAppAccessControlList"
+  },
+  {
+    "cmd": "Clear-SPOSiteRestrictedAppAccessControlPolicy",
+    "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Clear-SPOSiteRestrictedAppAccessControlPolicy"
+  },
+  {
     "cmd": "Clear-SPOTenantPreAuthSettings",
     "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Clear-SPOTenantPreAuthSettings"
+  },
+  {
+    "cmd": "Clear-SPOTenantRestrictedAppAccessControlPolicy",
+    "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Clear-SPOTenantRestrictedAppAccessControlPolicy"
   },
   {
     "cmd": "Connect-SPOService",
@@ -112,12 +124,28 @@
     "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Deny-SPOTenantServicePrincipalPermissionRequest"
   },
   {
+    "cmd": "Disable-SPOSiteRestrictedAppAccessControl",
+    "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Disable-SPOSiteRestrictedAppAccessControl"
+  },
+  {
+    "cmd": "Disable-SPOTenantRestrictedAppAccessControl",
+    "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Disable-SPOTenantRestrictedAppAccessControl"
+  },
+  {
     "cmd": "Disconnect-SPOService",
     "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Disconnect-SPOService"
   },
   {
     "cmd": "Enable-SPOCommSite",
     "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Enable-SPOCommSite"
+  },
+  {
+    "cmd": "Enable-SPOSiteRestrictedAppAccessControl",
+    "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Enable-SPOSiteRestrictedAppAccessControl"
+  },
+  {
+    "cmd": "Enable-SPOTenantRestrictedAppAccessControl",
+    "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Enable-SPOTenantRestrictedAppAccessControl"
   },
   {
     "cmd": "Enable-SPOTenantServicePrincipal",
@@ -186,6 +214,14 @@
   {
     "cmd": "Get-SPOContainer",
     "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Get-SPOContainer"
+  },
+  {
+    "cmd": "Get-SPOContainerTenantApplyFileVersionPolicyJobImpact",
+    "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Get-SPOContainerTenantApplyFileVersionPolicyJobImpact"
+  },
+  {
+    "cmd": "Get-SPOContainerTenantApplyFileVersionPolicyJobProgress",
+    "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Get-SPOContainerTenantApplyFileVersionPolicyJobProgress"
   },
   {
     "cmd": "Get-SPOContainerType",
@@ -306,6 +342,10 @@
   {
     "cmd": "Get-SPOInformationBarriersInsightsReport",
     "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Get-SPOInformationBarriersInsightsReport"
+  },
+  {
+    "cmd": "Get-SPOInformationBarriersPolicyComplianceReport",
+    "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Get-SPOInformationBarriersPolicyComplianceReport"
   },
   {
     "cmd": "Get-SPOListDesign",
@@ -448,6 +488,10 @@
     "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Get-SPOSiteRenameState"
   },
   {
+    "cmd": "Get-SPOSiteRestrictedAppAccessControl",
+    "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Get-SPOSiteRestrictedAppAccessControl"
+  },
+  {
     "cmd": "Get-SPOSiteReview",
     "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Get-SPOSiteReview"
   },
@@ -532,6 +576,10 @@
     "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Get-SPOTenantRenameStatus"
   },
   {
+    "cmd": "Get-SPOTenantRestrictedAppAccessControl",
+    "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Get-SPOTenantRestrictedAppAccessControl"
+  },
+  {
     "cmd": "Get-SPOTenantServicePrincipalPermissionGrants",
     "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Get-SPOTenantServicePrincipalPermissionGrants"
   },
@@ -612,6 +660,10 @@
     "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/New-SPOAppBillingPolicy"
   },
   {
+    "cmd": "New-SPOContainerTenantApplyFileVersionPolicyJob",
+    "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/New-SPOContainerTenantApplyFileVersionPolicyJob"
+  },
+  {
     "cmd": "New-SPOContainerType",
     "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/New-SPOContainerType"
   },
@@ -690,6 +742,10 @@
   {
     "cmd": "Remove-SPOContainer",
     "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Remove-SPOContainer"
+  },
+  {
+    "cmd": "Remove-SPOContainerTenantApplyFileVersionPolicyJob",
+    "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Remove-SPOContainerTenantApplyFileVersionPolicyJob"
   },
   {
     "cmd": "Remove-SPOContainerType",
@@ -1064,6 +1120,14 @@
     "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Set-SPOSiteOffice365Group"
   },
   {
+    "cmd": "Set-SPOSiteRestrictedAppAccessControlList",
+    "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Set-SPOSiteRestrictedAppAccessControlList"
+  },
+  {
+    "cmd": "Set-SPOSiteRestrictedAppAccessControlMode",
+    "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Set-SPOSiteRestrictedAppAccessControlMode"
+  },
+  {
     "cmd": "Set-SPOSiteScript",
     "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Set-SPOSiteScript"
   },
@@ -1108,6 +1172,10 @@
     "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Set-SPOTenantRenameSitePrioritization"
   },
   {
+    "cmd": "Set-SPOTenantRestrictedAppAccessControlList",
+    "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Set-SPOTenantRestrictedAppAccessControlList"
+  },
+  {
     "cmd": "Set-SPOTenantSyncClientRestriction",
     "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Set-SPOTenantSyncClientRestriction"
   },
@@ -1146,6 +1214,10 @@
   {
     "cmd": "Start-SPOInformationBarriersInsightsReport",
     "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Start-SPOInformationBarriersInsightsReport"
+  },
+  {
+    "cmd": "Start-SPOInformationBarriersPolicyComplianceReport",
+    "helpUrl": "https://learn.microsoft.com/powershell/module/microsoft.online.sharepoint.powershell/Start-SPOInformationBarriersPolicyComplianceReport"
   },
   {
     "cmd": "Start-SPOM365AgentAccessInsightsReport",
